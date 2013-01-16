@@ -18,6 +18,7 @@
 		5228569816903CD2003CBAED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5228569716903CD2003CBAED /* Default-568h@2x.png */; };
 		5228569B16903CD2003CBAED /* QTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228569A16903CD2003CBAED /* QTViewController.m */; };
 		5228569E16903CD2003CBAED /* QTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5228569C16903CD2003CBAED /* QTViewController.xib */; };
+		522856A616903D26003CBAED /* QTMyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 522856A516903D26003CBAED /* QTMyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		5228569916903CD2003CBAED /* QTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTViewController.h; sourceTree = "<group>"; };
 		5228569A16903CD2003CBAED /* QTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTViewController.m; sourceTree = "<group>"; };
 		5228569D16903CD2003CBAED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTViewController.xib; sourceTree = "<group>"; };
+		522856A416903D26003CBAED /* QTMyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTMyButton.h; sourceTree = "<group>"; };
+		522856A516903D26003CBAED /* QTMyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTMyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				5228569916903CD2003CBAED /* QTViewController.h */,
 				5228569A16903CD2003CBAED /* QTViewController.m */,
 				5228569C16903CD2003CBAED /* QTViewController.xib */,
+				522856A416903D26003CBAED /* QTMyButton.h */,
+				522856A516903D26003CBAED /* QTMyButton.m */,
 				5228568816903CD2003CBAED /* Supporting Files */,
 			);
 			path = MoveButton;
@@ -177,6 +182,7 @@
 				5228568E16903CD2003CBAED /* main.m in Sources */,
 				5228569216903CD2003CBAED /* QTAppDelegate.m in Sources */,
 				5228569B16903CD2003CBAED /* QTViewController.m in Sources */,
+				522856A616903D26003CBAED /* QTMyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
